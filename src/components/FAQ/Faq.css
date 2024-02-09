@@ -1,0 +1,45 @@
+.faq__container {
+  /* border: 1px solid red; */
+
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.accordion__container {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.accordion__container--title {
+  margin: 1rem;
+  padding: 1rem;
+
+  font-weight: bolder;
+}
+
+.accordion__container--title::after {
+  content: '\002B';
+  position: absolute;
+  font-size: larger;
+  right: 3rem;
+}
+
+.accordion__container--title.active::after {
+  content: '\2212';
+}
+
+.accordion__container--body {
+  margin: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  font-weight: bolder;
+}

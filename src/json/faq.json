@@ -1,0 +1,53 @@
+{
+  "data": {
+    "menu": [
+      {
+        "id": "id1",
+        "name": "Pizza",
+        "items": [
+          {
+            "id": "subid1",
+            "name": "Chicago Pizza",
+            "description": "Description Statement 1"
+          },
+          {
+            "id": "subid2",
+            "name": "Margherita Pizza",
+            "description": "Description Statement 2"
+          },
+          {
+            "id": "subid3",
+            "name": "Paneer Pizza",
+            "description": "Description Statement 3"
+          }
+        ]
+      },
+      {
+        "id": "id2",
+        "name": "Masala Dosa",
+        "items": []
+      },
+      {
+        "id": "id3",
+        "name": "Burger",
+        "items": [
+          {
+            "id": "subid4",
+            "name": "Veg Deluxe Burger",
+            "description": "Description Statement 4"
+          },
+          {
+            "id": "subid5",
+            "name": "Classic Veg Burger",
+            "description": "Description Statement 5"
+          },
+          {
+            "id": "subid6",
+            "name": "Paneer Burger",
+            "description": "Description Statement 6"
+          }
+        ]
+      }
+    ]
+  }
+}
